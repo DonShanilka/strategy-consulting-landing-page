@@ -5,12 +5,11 @@ import Image from "next/image";
 export const HeroSection: React.FC = () => {
   return (
     <>
-      <section className="py-14 border-b">
-        <h2 className="homePage-Main-textSize font-medium leading-tight text-black max-w-8xl">
+      <section className="min-h-screen text-white items-center justify-between px-6 md:px-20 pt-20 relative">
+        <h2 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl 2xl:text-9xl font-medium leading-tight text-black relative text-left">
           <div>Innovative Strategies</div>
-          <div className="-mt-8">for a Competitive Edge</div>
+          <div className="mt-0 sm:-mt-0 md:-mt-2 lg:-mt-2 xl:-mt-6">for a Competitive Edge</div>
         </h2>
-
         <p className="text-gray-600 max-w-2xl mt-6">
           We are here to help your business grow with well-planned strategies,
           innovative solutions, and precise execution. Together, let’s turn your
@@ -23,7 +22,7 @@ export const HeroSection: React.FC = () => {
         </div>
       </section>
 
-      <section className="grid grid-cols-4 gap-4 py-10">
+      {/* <section className="grid grid-cols-4 gap-4 py-10">
         <div className="col-span-1 bg-gray-100 p-6 flex flex-col justify-between">
           <div>
             <h3 className="font-semibold text-lg mb-2">
@@ -68,7 +67,7 @@ export const HeroSection: React.FC = () => {
             <p className="font-semibold">Alexander Ronald</p>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 };
