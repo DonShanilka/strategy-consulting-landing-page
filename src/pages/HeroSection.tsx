@@ -22,7 +22,7 @@ export const HeroSection: React.FC = () => {
         </div>
       </section>
 
-      {/* <section className="grid grid-cols-4 gap-4 py-10">
+      <section className="grid grid-cols-4 gap-4 py-10">
         <div className="col-span-1 bg-gray-100 p-6 flex flex-col justify-between">
           <div>
             <h3 className="font-semibold text-lg mb-2">
@@ -67,7 +67,7 @@ export const HeroSection: React.FC = () => {
             <p className="font-semibold">Alexander Ronald</p>
           </div>
         </div>
-      </section> */}
+      </section> 
     </>
   );
 };
