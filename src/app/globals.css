@@ -1,5 +1,5 @@
 @import "tailwindcss";
 
-.homePage-Main-h {
-  font-size: 100px;
+.homePage-Main-textSize {
+  font-size: 120px;
 }
