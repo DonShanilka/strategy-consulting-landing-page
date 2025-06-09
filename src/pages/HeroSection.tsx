@@ -10,7 +10,7 @@ export const HeroSection: React.FC = () => {
           <div>Innovative Strategies</div>
           <div className="mt-0 sm:-mt-0 md:-mt-2 lg:-mt-2 xl:-mt-6">for a Competitive Edge</div>
         </h2>
-        <p className="text-gray-600 max-w-2xl mt-6">
+        <p className="text-gray-500 max-w-3xl mt-6 text-5xl sm:text-6xl md:text-7xl lg:text-4xl xl:text-2xl 2xl:text-xl">
           We are here to help your business grow with well-planned strategies,
           innovative solutions, and precise execution. Together, let’s turn your
           business vision into real success.
